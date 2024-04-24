@@ -1,0 +1,68 @@
+@media screen and (max-width: 768px) {
+  .nav-item {
+    text-align: center;
+  }
+}
+
+.navbar-nav li a {
+  display: block;
+}
+.navbar-nav li:hover a {
+  background: #fff;
+  color: #000 !important;
+  transition: all 0.3s;
+}
+.carousel-inner {
+  margin-top: 60px;
+  margin-left: 5px;
+}
+.TieudeTKW p {
+  margin-left: 10px;
+}
+.TieudeTKW .progress {
+  margin-left: 10px;
+}
+.sidebarbtn button {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+.img_sidebar {
+  margin-top: 10px;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.product img {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.product a {
+  text-decoration: none;
+  color: #000;
+}
+.product:hover p {
+  color: red; /* Thay đổi màu chữ khi hover */
+}
+.product {
+  position: relative; /* Để có thể lấy phần tử con tương đối với phần tử cha */
+  transition: transform 0.3s ease; /* Áp dụng hiệu ứng chuyển đổi smooth cho transform */
+  overflow: hidden;
+}
+
+.product:hover {
+  transform: scale(1.1);
+  /* Phóng to toàn bộ sản phẩm khi hover */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.pagination {
+  margin-top: 30px !important;
+}
+.pagination .page-link {
+  background: #000;
+  color: #fff;
+}
